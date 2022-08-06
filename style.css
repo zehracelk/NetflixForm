@@ -1,4 +1,113 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0;
+}
 
 body{
     background-image: url(./banner.jpg);
+    height: 100%;
+    padding-top:2% ;
+}
+
+.container{
+    background-color: rgba(0,0, 0, 0.3);
+    padding-bottom: 2%;
+    width:85%;
+    margin: auto;
+    
+}
+
+header{
+    text-align: center;
+    padding: 2%;
+    font-weight: bold;
+    font-size:20px ;
+    text-decoration:double;
+    
+
+}
+
+h1{
+    word-spacing: 1px;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight:bold;
+    
+   
+
+}
+
+#net{
+    color: white;
+}
+#flix{
+    color: red;
+}
+.N{
+    font-size:45px;
+   
+   
+   
+}
+
+p.text{
+    color: white;
+}
+
+main{
+    color:white;
+    background-color: black;
+    margin: auto;
+    padding:1%;
+    text-align:left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:40%;
+    position: relative;
+   
+}
+
+.info input{
+    width:100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.info{
+    line-height: 4vh;
+}
+
+.section{
+    margin-top:3% ;
+}
+
+#content select{
+    margin-top:1vh ;
+    padding:0.5rem ;
+    width: 90%;
+}
+
+#feed textarea{
+    margin-top: 2vh ;
+    padding:1rem ;
+    width:80% ;
+
+    
+}
+
+footer{
+   text-align: center;
+   margin: 1rem;
+}
+
+#sub{
+    padding: 0.9rem;
+    background-color: red;
+    color: white;
+    font-size:16px ;
+    border:1px  ;
+    border-radius: 30px;
+    width:35%;
+    font-weight: bold;
+    
 }
